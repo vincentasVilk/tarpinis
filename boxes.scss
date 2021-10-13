@@ -1,0 +1,26 @@
+.boxes {
+  margin-top: 0;
+}
+
+.boxes .container-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #F9F9F9;
+  height: 300px;
+  align-items: center;
+}
+
+.boxes .container-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxes .container-box h2 {
+  text-align: center;
+}
+
+.boxes .container-box p {
+  text-align: center;
+}

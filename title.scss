@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.container img {
+  height: 350px;
+}
+
+.centered {
+  position: absolute;
+  margin-top: 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button {
+  background: #185ADB;
+  border: 3px solid #185ADB;
+  border-radius: 8px;
+  color: white;
+  width: 80px;
+  padding: 3px;
+}
